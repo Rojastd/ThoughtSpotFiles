@@ -1,0 +1,109 @@
+guid: 0104df44-09c3-493a-a615-fdf3b8271455
+liveboard:
+  name: shivani.b@blue.cloud's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total sales by region
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+      search_query: "[sales] [region]"
+      answer_columns:
+      - name: Total sales
+      - name: region
+      table:
+        table_columns:
+        - column_id: region
+          show_headline: false
+        - column_id: Total sales
+          show_headline: false
+        ordered_column_ids:
+        - region
+        - Total sales
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: region
+        - column_id: Total sales
+        axis_configs:
+        - x:
+          - region
+          "y":
+          - Total sales
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"region\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"0fcc07eb-ff5d-4846-a0c0-0362e431d584\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total sales\"],\"isOpposite\": false}},{\"id\": \"5b177318-fcf6-483b-8c6b-512762e30f68\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"region\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total sales\",\"color\": \"#FCC838\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: a8efb570-0c92-49ac-8e53-1eb206346e85
+  - id: Viz_2
+    answer:
+      name: Total sales by store
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+      search_query: "[sales] [store] [date].2021 top 10"
+      answer_columns:
+      - name: Total sales
+      - name: store
+      table:
+        table_columns:
+        - column_id: store
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total sales
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - store
+        - Total sales
+        client_state: "{\"wrapTableHeader\":true}"
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"wrapTableHeader\": true,\"columnProperties\": [{\"columnId\": \"store\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {}}]}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: store
+        - column_id: Total sales
+        axis_configs:
+        - x:
+          - store
+          "y":
+          - Total sales
+        client_state: "{\"chartProperties\":{\"gridLines\":{},\"showRoundedNumbers\":true,\"chartSpecific\":{},\"allLabels\":true},\"axisProperties\":{\"77d906b2-d265-44ec-9a89-6be4ebf0d171\":{\"linkedColumns\":[\"Total sales\"],\"axisType\":\"Y\",\"isOpposite\":false},\"1dd345d1-bd8e-497b-bccd-3f696a00a346\":{\"linkedColumns\":[\"store\"],\"axisType\":\"X\"}},\"systemSeriesColors\":{\"Total sales\":\"#06BF7F\"},\"version\":\"V2.1\",\"columnProperties\":{\"store\":{},\"Total sales\":{\"dataLabels\":true}}}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"},\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"store\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"77d906b2-d265-44ec-9a89-6be4ebf0d171\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total sales\"],\"isOpposite\": false}},{\"id\": \"1dd345d1-bd8e-497b-bccd-3f696a00a346\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"store\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total sales\",\"color\": \"#06BF7F\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 2f3b4311-0762-4a88-9446-ddbff02e0846
+  - id: Viz_3
+    answer:
+      name: Total sales by product
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+      search_query: "[sales] by [product] [date].2021 top"
+      answer_columns:
+      - name: Total sales
+      - name: product
+      table:
+        table_columns:
+        - column_id: product
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total sales
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - product
+        - Total sales
+        client_state: "{\"dataOffset\":0.0,\"widthState\":{},\"wrapTableHeader\":true}"
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"wrapTableHeader\": true,\"columnProperties\": [{\"columnId\": \"product\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {}}]}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: product
+        - column_id: Total sales
+        axis_configs:
+        - x:
+          - product
+          "y":
+          - Total sales
+        client_state: "{\"chartProperties\":{\"gridLines\":{},\"showRoundedNumbers\":true,\"chartSpecific\":{},\"allLabels\":true},\"axisProperties\":{\"326c2977-8aed-47cb-af66-beaf062868bd\":{\"linkedColumns\":[\"Total sales\"],\"axisType\":\"Y\",\"isOpposite\":false},\"d5cd8b10-20cf-4b1a-be5c-b6ca11c1a9f4\":{\"linkedColumns\":[\"product\"],\"axisType\":\"X\"}},\"systemSeriesColors\":{\"Total sales\":\"#8C62F5\"},\"version\":\"V2.1\",\"columnProperties\":{\"product\":{},\"Total sales\":{\"dataLabels\":true}}}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"},\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"Total sales\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"product\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"326c2977-8aed-47cb-af66-beaf062868bd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total sales\"],\"isOpposite\": false}},{\"id\": \"d5cd8b10-20cf-4b1a-be5c-b6ca11c1a9f4\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"product\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total sales\",\"color\": \"#8C62F5\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: ad5e01b1-f3c0-4629-b9f8-0a3b4eb20dd5
