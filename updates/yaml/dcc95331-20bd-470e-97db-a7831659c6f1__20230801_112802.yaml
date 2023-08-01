@@ -1,0 +1,202 @@
+{
+  "guid": "dcc95331-20bd-470e-97db-a7831659c6f1",
+  "liveboard": {
+    "name": "Live7",
+    "visualizations": [
+      {
+        "answer": {
+          "answer_columns": [
+            {
+              "name": "Total SALES"
+            },
+            {
+              "name": "REGION"
+            }
+          ],
+          "chart": {
+            "axis_configs": [
+              {
+                "x": [
+                  "REGION"
+                ],
+                "y": [
+                  "Total SALES"
+                ]
+              }
+            ],
+            "chart_columns": [
+              {
+                "column_id": "REGION"
+              },
+              {
+                "column_id": "Total SALES"
+              }
+            ],
+            "client_state": "",
+            "client_state_v2": "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"REGION\",\"columnProperty\": {}},{\"columnId\": \"Total SALES\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ddaae784-fad3-4f85-bded-0ff171276170\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total SALES\"],\"isOpposite\": false}},{\"id\": \"cda176e0-081e-40a7-b16e-5cb7c72500d0\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"REGION\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total SALES\",\"color\": \"#747E8C\"}]}",
+            "type": "COLUMN"
+          },
+          "description": "Devops sample",
+          "display_mode": "CHART_MODE",
+          "name": "Total SALES by REGION",
+          "search_query": "[SALES] [REGION]",
+          "table": {
+            "client_state": "",
+            "client_state_v2": "{\"tableVizPropVersion\": \"V1\"}",
+            "ordered_column_ids": [
+              "REGION",
+              "Total SALES"
+            ],
+            "table_columns": [
+              {
+                "column_id": "REGION",
+                "show_headline": false
+              },
+              {
+                "column_id": "Total SALES",
+                "show_headline": false
+              }
+            ]
+          },
+          "tables": [
+            {
+              "id": "SUPERSTORE",
+              "name": "SUPERSTORE"
+            }
+          ]
+        },
+        "id": "Viz_1",
+        "viz_guid": "9d28fef6-1453-41ab-9b68-c06daa57c755"
+      },
+      {
+        "answer": {
+          "answer_columns": [
+            {
+              "name": "Total SALES"
+            },
+            {
+              "name": "REGION"
+            }
+          ],
+          "chart": {
+            "axis_configs": [
+              {
+                "x": [
+                  "REGION"
+                ],
+                "y": [
+                  "Total SALES"
+                ]
+              }
+            ],
+            "chart_columns": [
+              {
+                "column_id": "REGION"
+              },
+              {
+                "column_id": "Total SALES"
+              }
+            ],
+            "client_state": "",
+            "client_state_v2": "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"REGION\",\"columnProperty\": {}},{\"columnId\": \"Total SALES\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"ddaae784-fad3-4f85-bded-0ff171276170\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total SALES\"],\"isOpposite\": false}},{\"id\": \"cda176e0-081e-40a7-b16e-5cb7c72500d0\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"REGION\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total SALES\",\"color\": \"#747E8C\"}]}",
+            "type": "COLUMN"
+          },
+          "description": "Devops sample",
+          "display_mode": "CHART_MODE",
+          "name": "Total SALES by REGION",
+          "search_query": "[SALES] [REGION]",
+          "table": {
+            "client_state": "",
+            "client_state_v2": "{\"tableVizPropVersion\": \"V1\"}",
+            "ordered_column_ids": [
+              "REGION",
+              "Total SALES"
+            ],
+            "table_columns": [
+              {
+                "column_id": "REGION",
+                "show_headline": false
+              },
+              {
+                "column_id": "Total SALES",
+                "show_headline": false
+              }
+            ]
+          },
+          "tables": [
+            {
+              "id": "SUPERSTORE",
+              "name": "SUPERSTORE"
+            }
+          ]
+        },
+        "id": "Viz_2",
+        "viz_guid": "31184d1b-f270-48a4-a22b-ee1619e15935"
+      },
+      {
+        "answer": {
+          "answer_columns": [
+            {
+              "name": "CAR"
+            },
+            {
+              "name": "MODEL"
+            }
+          ],
+          "chart": {
+            "axis_configs": [
+              {
+                "x": [
+                  "CAR"
+                ],
+                "y": [
+                  "MODEL"
+                ]
+              }
+            ],
+            "chart_columns": [
+              {
+                "column_id": "CAR"
+              },
+              {
+                "column_id": "MODEL"
+              }
+            ],
+            "client_state": "",
+            "client_state_v2": "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"CAR\",\"columnProperty\": {}},{\"columnId\": \"MODEL\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"47b9bbd5-4c64-451f-837e-66931e603885\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"MODEL\"],\"isOpposite\": false}},{\"id\": \"879aca40-e5d7-408a-b149-fa68c9b6f33b\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"CAR\"]}}],\"systemSeriesColors\": [{\"serieName\": \"MODEL\",\"color\": \"#FF8142\"}]}",
+            "type": "SCATTER"
+          },
+          "display_mode": "CHART_MODE",
+          "name": "MODEL by CAR",
+          "search_query": "[CAR] [MODEL]",
+          "table": {
+            "client_state": "",
+            "client_state_v2": "{\"tableVizPropVersion\": \"V1\"}",
+            "ordered_column_ids": [
+              "CAR",
+              "MODEL"
+            ],
+            "table_columns": [
+              {
+                "column_id": "CAR",
+                "show_headline": false
+              },
+              {
+                "column_id": "MODEL",
+                "show_headline": false
+              }
+            ]
+          },
+          "tables": [
+            {
+              "id": "CARINFO",
+              "name": "CARINFO"
+            }
+          ]
+        },
+        "id": "Viz_3",
+        "viz_guid": "76bf1171-d620-44d9-94d0-37ccc909594d"
+      }
+    ]
+  }
+}
