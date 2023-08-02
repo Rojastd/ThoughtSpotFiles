@@ -1,0 +1,72 @@
+{
+  "guid": "466a31ec-618b-48ef-b5de-18621a3934d2",
+  "liveboard": {
+    "name": "Live4",
+    "visualizations": [
+      {
+        "answer": {
+          "answer_columns": [
+            {
+              "name": "CUSTOMER_ID"
+            },
+            {
+              "name": "CUSTOMER_NAME"
+            }
+          ],
+          "chart": {
+            "axis_configs": [
+              {
+                "x": [
+                  "CUSTOMER_ID"
+                ],
+                "y": [
+                  "CUSTOMER_NAME"
+                ]
+              }
+            ],
+            "chart_columns": [
+              {
+                "column_id": "CUSTOMER_ID"
+              },
+              {
+                "column_id": "CUSTOMER_NAME"
+              }
+            ],
+            "client_state": "",
+            "client_state_v2": "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"CUSTOMER_ID\",\"columnProperty\": {}},{\"columnId\": \"CUSTOMER_NAME\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"7105f4c5-db4c-4dd3-bd9d-1a206c759398\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"CUSTOMER_NAME\"],\"isOpposite\": false}},{\"id\": \"1f04ce76-a24d-4109-bdcd-eaf5b8b6ba6d\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"CUSTOMER_ID\"]}}],\"systemSeriesColors\": [{\"serieName\": \"CUSTOMER_NAME\",\"color\": \"#06BF7F\"}]}",
+            "type": "SCATTER"
+          },
+          "display_mode": "TABLE_MODE",
+          "name": "CUSTOMER_ID, CUSTOMER_NAME",
+          "search_query": "[CUSTOMER_ID] [CUSTOMER_NAME]",
+          "table": {
+            "client_state": "",
+            "client_state_v2": "{\"tableVizPropVersion\": \"V1\"}",
+            "ordered_column_ids": [
+              "CUSTOMER_ID",
+              "CUSTOMER_NAME"
+            ],
+            "table_columns": [
+              {
+                "column_id": "CUSTOMER_ID",
+                "show_headline": false
+              },
+              {
+                "column_id": "CUSTOMER_NAME",
+                "show_headline": false
+              }
+            ]
+          },
+          "tables": [
+            {
+              "id": "CUSTOMER",
+              "name": "CUSTOMER"
+            }
+          ]
+        },
+        "id": "Viz_1",
+        "viz_guid": "997e95d7-c5a4-4051-95c8-c2daf21333b3"
+      }
+    ]
+  }
+}
